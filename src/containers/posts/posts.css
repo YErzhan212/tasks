@@ -1,0 +1,41 @@
+.post {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+}
+.edit-modal {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+.modal-inner span {
+   cursor: pointer;
+}
+.open-edit-modal {
+   display: flex;
+   justify-content: center;
+   align-self: center;
+}
+.close-edit-modal {
+   display: none;
+}
+.edit-modal-bg {
+   position: absolute;
+   background-color: rgba(0,0,0,0.6);
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+.modal-inner {
+   position: relative;
+   width: 100%;
+   max-width: 400px;
+   background-color: rosybrown;
+   border-radius: 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
